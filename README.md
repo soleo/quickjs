@@ -18,5 +18,5 @@ $ docker run  --rm -v `pwd`:/mnt/src soleo/quickjs qjs examples/console-log/hell
 ### VueJS SPA
 
 ```shell
-$ docker run  --rm -v `pwd`:/mnt/src soleo/quickjs qjs examples/vue-js-spa/app.js
+$ docker run  --rm -v `pwd`:/mnt/src soleo/quickjs qjs -m examples/vue-js-spa/app.js
 ```
