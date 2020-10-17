@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 LABEL maintainer="Xinjiang Shao <shaoxinjiang@gmail.com>"
 
-ENV QUICKJS_VERSION="2019-07-09"
+ENV QUICKJS_VERSION="2020-09-06"
 ENV QUICKJS_TAR="https://bellard.org/quickjs/quickjs-${QUICKJS_VERSION}.tar.xz"
 
 VOLUME /mnt/src
